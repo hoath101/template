@@ -4,7 +4,7 @@ export default function Shop(){
     return(
         <main className="bg-pink-100 ">
           <section className="">
-            <h1 className="flex justify-center text-4xl mt-6 mb-6 text-amber-600">Explore Our Shop</h1>
+            <h1 className="flex justify-center text-4xl pt-6 mb-6 text-amber-600">Explore Our Shop</h1>
             <div className="flex justify-between gap-4 m-4 mt-6 mr-6 ml-6">
             <Image src="/product-1.webp" alt="product-1" width={400} height={200}/>
             <Image src="/product-2.webp" alt="product-2" width={400} height={200}/>

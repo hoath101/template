@@ -15,18 +15,18 @@ function Contact(){
         p-8 rounded-xl shadow-lg text-white">
       <div className="flex flex-col space-y-8 justify-between">
       <div>
-        <h1 className="font-bold text-4xl tracking-wide my">
+        <h1 className="font-bold text-4xl tracking-wide">
           Contact Us
         </h1>
-        <p className="pt-2 text-white text-sm">
+        <p className="pt-5 text-white text-sm ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit cupiditate eos quibusdam in. Fugit!</p>
       </div>
       <div className="flex flex-col space-y-6">
         <div className="inline-flex space-x-2">
           <ul>
-            <p className="flex gap-2"><FaPhoneAlt className="fill-amber-500 size-6 pt-2"/> +(123) 456 7890</p>
-          <p className="flex gap-2"><IoIosMail className="fill-amber-500 size-6 pt-2"/> furniro@website.com</p>
-          <p className="flex gap-2"><MdLocationOn className="fill-amber-500 size-6 pt-2"/> 13, Street 356,Bcd ab</p>
+            <p className="flex gap-2 pt-3"><FaPhoneAlt className="fill-amber-500 size-6 pt-2"/> +(123) 456 7890</p>
+          <p className="flex gap-2 pt-3"><IoIosMail className="fill-amber-500 size-6 pt-2"/> furniro@website.com</p>
+          <p className="flex gap-2 pt-3"><MdLocationOn className="fill-amber-500 size-6 pt-2"/> 13, Street 356,Bcd ab</p>
           </ul>
         </div>
       </div>
@@ -39,7 +39,7 @@ function Contact(){
         </ul>
       </div>
       </div>
-      <div className="bg-white rounded-xl shadow-lg p-8 text-gray-700 md:w-80">
+      <div className="bg-white rounded-xl shadow-lg p-8 text-gray-700 md:w-80 ml-40">
         <form className="flex flex-col space-y-8">
           <div>
             <label htmlFor="" className="text-sm">Your Name</label>

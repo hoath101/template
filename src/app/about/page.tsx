@@ -3,7 +3,7 @@ export default function About(){
     return(
         <main className="bg-pink-200">
             <div className="">
-              <h1 className="flex justify-center text-4xl text-amber-600">About us</h1>
+              <h1 className="flex justify-center text-4xl text-amber-600 pt-4">About us</h1>
             <h2 className="flex justify-center text-4xl font-bold mt-4">Crafting Unique Furniture with Heart and Soul</h2>
             <p className="flex justify-center mt-3 text-gray-600 text-xl">At Furnio, we believe that furniture is more than just pieces that fill a room. <br /> It’s about creating spaces where memories are made, stories are told, and </p>
              <p className="flex justify-center text-gray-600 text-xl"> comfort is felt.</p></div>
@@ -14,7 +14,7 @@ export default function About(){
                 providing exceptional customer experiences.</p></div>
                 <div>
                   <h3 className="text-2xl font-semibold">Sustainibility</h3>
-                <p className="mt-4 text-gray-700">We care deeply about our planet. That's why we use sustainable materials and <br />
+                <p className="mt-4 text-gray-700">We care deeply about our planet. Thats why we use sustainable materials and <br />
                responsible sourcing to ensure every piece we create contributes to a healthier, <br />
                 greener world.</p></div>
             </div>
