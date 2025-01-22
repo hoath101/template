@@ -1,4 +1,3 @@
-import Footer from "./footer";
 import Image from "next/image";
 function HomePage() {
   return (

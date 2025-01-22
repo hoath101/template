@@ -1,4 +1,3 @@
-import Footer from "../footer";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { MdLocationOn } from "react-icons/md";

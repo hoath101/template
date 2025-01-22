@@ -1,4 +1,3 @@
-import Footer from "../footer"
 export default function About() {
   return (
     <main className="bg-pink-200 items-center m-2 p-2">
