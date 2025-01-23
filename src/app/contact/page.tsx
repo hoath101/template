@@ -38,34 +38,64 @@ function Contact() {
               </ul>
             </div>
           </div>
-          <div className="bg-white rounded-xl shadow-lg p-8 text-gray-700 md:w-80 ml-40">
-            <form className="flex flex-col space-y-8">
-              <div>
-                <label htmlFor="" className="text-sm">Your Name</label>
-                <input placeholder="Enter Your Name" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300 
+          <div className="hidden lg:block">
+            <div className="bg-white rounded-xl shadow-lg p-8 text-gray-700 md:w-80 ml-40">
+              <form className="flex flex-col space-y-8">
+                <div>
+                  <label htmlFor="" className="text-sm">Your Name</label>
+                  <input placeholder="Enter Your Name" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300 
             ring-gray-300 w-full rounded-md px-4 py-2 outline-none" type="text" />
-              </div>
-              <div>
-                <label htmlFor="" className="text-sm">Your Email</label>
-                <input type="email" placeholder="Enter Your Email" className="ring-1 mt-2 focus:ring-2 
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Your Email</label>
+                  <input type="email" placeholder="Enter Your Email" className="ring-1 mt-2 focus:ring-2 
             focus:ring-amber-300 ring-gary-300 w-full rounded-md px-4 py-2 outline-none" />
-              </div>
-              <div>
-                <label htmlFor="" className="text-sm">Your Contact No</label>
-                <input placeholder="Enter Your Number" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Your Contact No</label>
+                  <input placeholder="Enter Your Number" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300
              ring-gray-300 w-full rounded-md px-4 py-2 outline-none" id="" type="number" name=""></input>
-              </div>
-              <div>
-                <label htmlFor="" className="text-sm">Message</label>
-                <textarea placeholder="Enter Your Message" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300 ring-gray-200
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Message</label>
+                  <textarea placeholder="Enter Your Message" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300 ring-gray-200
            w-full rounded-md px-4 py-2 outline-none" name="" id=""></textarea>
-              </div>
-              <button className="inline-block self-end text-white font-bold rounded-lg px-6 py-2 uppercase text-sm bg-amber-600">Send Message</button>
-            </form>
+                </div>
+                <button className="inline-block self-end text-white font-bold rounded-lg px-6 py-2 uppercase text-sm bg-amber-600">Send Message</button>
+              </form>
+            </div>
+          </div>
+          {/* For Mobile Screen */}
+          <div className="block lg:hidden">
+          <div className="bg-white rounded-xl shadow-lg p-8 text-gray-700 md:w-80 ">
+              <form className="flex flex-col space-y-8">
+                <div>
+                  <label htmlFor="" className="text-sm">Your Name</label>
+                  <input placeholder="Enter Your Name" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300 
+            ring-gray-300 w-full rounded-md px-4 py-2 outline-none" type="text" />
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Your Email</label>
+                  <input type="email" placeholder="Enter Your Email" className="ring-1 mt-2 focus:ring-2 
+            focus:ring-amber-300 ring-gary-300 w-full rounded-md px-4 py-2 outline-none" />
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Your Contact No</label>
+                  <input placeholder="Enter Your Number" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300
+             ring-gray-300 w-full rounded-md px-4 py-2 outline-none" id="" type="number" name=""></input>
+                </div>
+                <div>
+                  <label htmlFor="" className="text-sm">Message</label>
+                  <textarea placeholder="Enter Your Message" className="ring-1 mt-2 focus:ring-2 focus:ring-amber-300 ring-gray-200
+           w-full rounded-md px-4 py-2 outline-none" name="" id=""></textarea>
+                </div>
+                <button className="inline-block self-end text-white font-bold rounded-lg px-6 py-2 uppercase text-sm bg-amber-600">Send Message</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-      
+
     </main>
   )
 }

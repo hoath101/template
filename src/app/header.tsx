@@ -34,7 +34,7 @@ function Header() {
             </nav>
             {/* For Mobile Screen */}
             <nav className="block lg:hidden">
-                <div className="flex justify-between overflow-hidden max-w-sm">
+                <div className="flex justify-between overflow-hidden max-w-sm mt-2 mr-4">
                     <h1 className="text-3xl font-semibold ml-10">Furniro</h1>
                     <div>
                         <Sheet>

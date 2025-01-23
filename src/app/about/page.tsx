@@ -4,8 +4,17 @@ export default function About() {
       <div className="">
         <h1 className="flex justify-center text-4xl text-amber-600 pt-4">About us</h1>
         <h2 className="flex justify-center text-4xl font-bold mt-4">Crafting Unique Furniture with Heart and Soul</h2>
-        <p className="flex justify-center mt-3 text-gray-600 text-xl">At Furnio, we believe that furniture is more than just pieces that fill a room. <br /> It’s about creating spaces where memories are made, stories are told, and </p>
-        <p className="flex justify-center text-gray-600 text-xl"> comfort is felt.</p></div>
+        <div className="hidden lg:block">
+          <p className="flex justify-center mt-3 text-gray-600 text-xl">At Furnio, we believe that furniture is more than just pieces that fill a room. <br /> It’s about creating spaces where memories are made, stories are told, and </p>
+          <p className="flex justify-center text-gray-600 text-xl"> comfort is felt.</p>
+        </div>
+        <div className="block lg:hidden">
+          <p className="flex justify-center mt-3 text-gray-600 text-xl">
+          At Furnio, we believe that furniture is more than just pieces that fill
+         a room. <br /> It’s about creating spaces where memories are made, stories are told, and comfort is felt.
+          </p>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ml-10 mt-8">
         <div><h3 className="text-2xl font-semibold">Our Mission</h3>
           <p className="mt-4 text-gray-700">Our mission is to design and craft unique, high-quality furniture that enhances the <br />
@@ -38,7 +47,7 @@ export default function About() {
           Explore Our Shop
         </a>
       </div>
-      
+
     </main>
   )
 }

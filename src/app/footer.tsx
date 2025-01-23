@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <main className="">
             <div className="hidden lg:block">       
-            <footer className="flex mt-10 justify-between bg-gray-200">
+            <footer className="flex  justify-between bg-gray-200">
                 <div className="sm:flex justify-center gap-4 m-2 p-2 ">
                     <div><h2 className="text-2xl font-bold mt-4">Furniro.</h2>
                         <p className="mt-4 text-gray-500">400 University Drive Suite 200 Coral Gables.</p>
@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             {/* For Mobile Screen */}
             <div className="block lg:hidden">
-            <footer className="flex flex-col mt-10 justify-between bg-gray-200 text-center overflow-hidden">
+            <footer className="flex flex-col justify-between bg-gray-200 text-center overflow-hidden">
             <div className="sm:flex justify-center gap-4 m-2 p-2 ">
                     <div><h2 className="text-2xl font-bold mt-4">Furniro.</h2>
                         <p className="mt-4 text-gray-500">400 University Drive Suite 200 Coral Gables.</p>
